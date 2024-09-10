@@ -1,0 +1,135 @@
+@import url('https://fonts.cdnfonts.com/css/sst');
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    background-color: black;
+    height: auto;
+    width: 1300px;
+    margin: 0%;
+}
+
+.LogoSony{
+    width: 60px;
+    height: 15px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.Buscador{
+    width: 500px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.LogoTelefono{
+    width: 50px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 20px;
+
+}
+
+header div{
+    display: flex;
+    margin-left: 0%;
+}
+
+header div ol li{
+    color: white;
+    list-style-type: none;
+    font-family: 'SST', sans-serif;
+    text-align: left;
+}
+header div ol li:nth-of-type(1){
+    font-weight: 300;
+    font-size: 11px;;
+}
+
+header div ol li:nth-of-type(3){
+    font-weight: 300;
+    font-size: 11px;;
+}
+
+header h3{
+    color: white;
+    font-family: 'SST', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 25px ;
+}
+nav ol {
+    display: flex;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+nav ol li{
+    font-family: 'SST', sans-serif;
+    list-style-type: none;
+    padding-left: 40px;  
+}
+
+.SemanaGamer{
+    height: 300px;
+    background-image:url(img/banner.JPG);
+    background-repeat: no-repeat;
+    background-size: 1100px 100%; /*width height*/
+}
+.SemanaGamer ol li{
+    font-family: 'SST', sans-serif;
+    list-style-type: none;
+    padding-left: 40px; 
+    color: white;
+}
+
+.SemanaGamer ol li:nth-of-type(1){
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 12px;;
+}
+
+.SemanaGamer ol li:nth-of-type(2){
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 27px;;
+}
+
+.SemanaGamer ol li:nth-of-type(3){
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 12px;;
+}
+
+.SemanaGamer button{
+    margin-top: 10px;
+    margin-left: 40px; 
+    background-color:#5787f4;
+    color: white;
+    height: 30px;
+}
+
+.letras{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'SST', sans-serif;
+    padding-left: 50px;
+}
+
+.letras b{
+    color: orangered;
+}
+
+.Imagenes{
+    width: 1800px;
+    display: flex;
+}
